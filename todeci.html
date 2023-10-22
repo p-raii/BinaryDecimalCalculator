@@ -12,28 +12,28 @@
 <body>
     <div id="calculator" class="container">
         <div class="row mt-4">
-            <a href ="index.html" class="col-2 offset-sm-3  btn border-dark border-2 color-button">(?)<sub>2</sub></a>
+            <a href ="index.html" class="col-2 offset-md-3  btn btn-lg border-dark border-2 color-button">(?)<sub>2</sub></a>
         </div>     
         <div class="row ">
-            <div class="card col-sm-6 offset-sm-3 bg-color" >
+            <div class="card col-md-6 offset-md-3 p-2 bg-color" >
                 <div class="card-body">
                     <div class="container">
                         <div class="row m-2">
-                            <div id="display" class="rounded border col-12 p-2 display-text button-color">0</div>
+                            <div id="display" class="rounded border col-12 p-3 text-size display-text button-color">0</div>
                         </div>
                         <div class="row m-2 justify-content-evenly">
-                            <div onclick="del()" class="col-3 btn rounded-pill border color-button">CE</div> 
-                            <div onclick="addnum('0')" class="col-3 btn rounded-pill border button-color">0</div>
-                            <div onclick="clearDisplay()" class="col-3 btn rounded-pill border color-button">AC</div>
+                            <div onclick="del()" class="col-3 m-2 p-2 btn btn-lg rounded-pill border color-button">CE</div> 
+                            <div onclick="addnum('0')" class="col-3 m-2 p-2 btn btn-lg rounded-pill border button-color">0</div>
+                            <div onclick="clearDisplay()" class="col-3 m-2 p-2 btn btn-lg rounded-pill border color-button">AC</div>
                         </div>
                         <div class="row m-2 justify-content-evenly">
-                            <div onclick="addnum('1')" class="col-3 btn rounded-pill border button-color">1</div>
-                            <div onclick="addnum('00')" class="col-3 btn rounded-pill border button-color">00</div>
-                            <div onclick="addnum('11')" class="col-3 btn rounded-pill border button-color">11</div>
+                            <div onclick="addnum('1')" class="col-3 btn m-2 p-2 btn-lg rounded-pill border button-color">1</div>
+                            <div onclick="addnum('00')" class="col-3 btn m-2 p-2 btn-lg rounded-pill border button-color">00</div>
+                            <div onclick="addnum('11')" class="col-3 btn m-2 p-2 btn-lg rounded-pill border button-color">11</div>
                         </div>
                         <div class="row m-2 justify-content-evenly">
-                            <div onclick="addnum('.')" class=" col-3 btn rounded-pill border button-color">.</div>
-                            <div onclick="convert()" class=" col-6 btn rounded-pill border color-button">CONVERT</div>
+                            <div onclick="addnum('.')" class=" col-3 m-2 p-2 btn btn-lg rounded-pill border button-color">.</div>
+                            <div onclick="convert()" class=" col-6 m-2 p-2 btn btn-lg rounded-pill border color-button">CONVERT</div>
                         </div>
                     </div>
                 </div>
