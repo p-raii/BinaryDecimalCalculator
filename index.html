@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal to Binary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" type="image/png" sizes="128x128" href="icon.png">
+</head>
+
+<body>
+    <div id="calculator" class="container">
+        <div class="row mt-4">
+            <a href ="todeci.html" class="col-2 offset-sm-3  btn border-dark border-2 button-color">(?)<sub>10</sub></a>
+        </div>     
+        <div class="row ">
+            <div class="card col-sm-6 offset-sm-3 bg-color" >
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row m-2">
+                            <div id="display" class="rounded border col-12 p-2 display-text button-color">0</div>
+                        </div>
+                        <div class="row m-2 justify-content-evenly">
+                            <div onclick="del()" class="col-3 btn rounded-pill border color-button">CE</div> 
+                            <div onclick="addnum('0')" class="col-3 btn rounded-pill border button-color">0</div>
+                            <div onclick="clearDisplay()" class="col-3 btn rounded-pill border color-button">AC</div>
+                        </div>
+                        <div class="row m-2 justify-content-evenly">
+                            <div onclick="addnum('1')" class="col-3 btn rounded-pill border button-color">1</div>
+                            <div onclick="addnum('2')"class="col-3 btn rounded-pill border button-color">2</div>
+                            <div onclick="addnum('3')"class="col-3 btn rounded-pill border button-color">3</div>
+                        </div>
+                        <div class="row m-2 justify-content-evenly">
+                            <div onclick="addnum('4')" class="col-3 btn rounded-pill border button-color">4</div>
+                            <div onclick="addnum('5')" class="col-3 btn rounded-pill border button-color">5</div>
+                            <div onclick="addnum('6')" class="col-3 btn rounded-pill border button-color">6</div>
+                        </div>
+                        <div class="row m-2 justify-content-evenly">
+                            <div onclick="addnum('7')" class="col-3 btn rounded-pill border button-color">7</div>
+                            <div onclick="addnum('8')" class="col-3 btn rounded-pill border button-color">8</div>
+                            <div onclick="addnum('9')" class="col-3 btn rounded-pill border button-color">9</div>
+                        </div>
+                        <div class="row m-2 justify-content-evenly">
+                            <div onclick="addnum('.')" class=" col-3 btn rounded-pill border button-color">.</div>
+                            <div onclick="convert()" class=" col-6 btn rounded-pill border color-button">CONVERT</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="deci-bin.js"></script>
+</body>
+</html>
