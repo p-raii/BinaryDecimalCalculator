@@ -33,7 +33,7 @@ To run the project locally, follow these steps:
 
 ## Demo
 
-You can try out the live demo of the [Calculator](https://github.com/p-raii/BinaryDecimalCalculator).
+You can try out the live demo of the [Calculator](https://p-raii.github.io/BinaryDecimalCalculator/).
 
 ## License
 
