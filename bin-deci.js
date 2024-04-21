@@ -24,6 +24,8 @@ function del(){
     }
 }
 function convert(){
+    if (display.includes(".")) 
+    {
     var parts = display.split(".");
     var decimal = parseInt(parts[0], 2);
     var input=parts[1];
@@ -39,6 +41,11 @@ function convert(){
     }
     console.log(ans);
     decimal+=ans;
+}
+else
+{
+    var decimal=parseInt(display,2);
+}
     show(decimal);
     display="";
 }
